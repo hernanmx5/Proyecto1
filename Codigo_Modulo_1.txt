@@ -1,0 +1,20 @@
+#Codigo que calcula operaciones basicas 
+
+print("       UNIVERSIDAD ISRAEL           ")
+print("Hernan Morales           Septimo C\n")
+nom = input("Hola bienvenido como te llamas :  ")
+print ("\nHola",nom ," Un gusto en conocerte ")
+print ("EL programa realizara las operaciones basicas de los numeros que ingreses\n")
+a = float(input("Ingrese el primer valor: "))#declaramos una letra, le colocamos el tipo abrimos parentesis y colocamos imput
+b = float(input("Ingrese el segundo valor: "))
+print ()
+print("El primer valor es",a)
+print("El primer valor es",b)
+print()
+print("La suma de los numeros es :", a + b)
+print("La resta de los numeros es :", a - b)
+print("La multiplicacion de los numeros es :", a * b)
+print("La division de los numeros es :", a / b)
+print()
+input("Preciona cualquier tecla para salir : ")
+print("Gracias por participar!")
